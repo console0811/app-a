@@ -1,4 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    extends: ['./../app-b']
+    extends: ['github:console0811/app-c'],
+    // extends: ['github:console0811/app-b','github:console0811/app-c']
 })
